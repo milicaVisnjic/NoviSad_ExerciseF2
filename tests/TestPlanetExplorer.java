@@ -15,7 +15,7 @@ public class TestPlanetExplorer {
 		String kretanje = "ffrf";
 		String actualPosition=p.executeCommand(kretanje);
 		
-		//assertEquals("(1,1)", actualPosition);
+		
 	}
 	
 	@Test
@@ -32,7 +32,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testCheckIfCarGoesLeft() throws PlanetExplorerException {
-		PlanetExplorer p = new PlanetExplorer(3, 3, "1,2");
+		PlanetExplorer p = new PlanetExplorer(3, 3, "(1,2)");
 		p.setX_vozila(2);
 		p.setY_vozila(1);
 		String kretanje = "l";
@@ -42,7 +42,7 @@ public class TestPlanetExplorer {
 	}
 	@Test
 	public void testCheckIfCarGoesBack() throws PlanetExplorerException {
-		PlanetExplorer p = new PlanetExplorer(3, 3, "1,2");
+		PlanetExplorer p = new PlanetExplorer(3, 3, "(1,2)");
 		p.setX_vozila(2);
 		p.setY_vozila(2);
 		String kretanje = "b";
@@ -53,7 +53,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testCheckIfCarGoesRight() throws PlanetExplorerException {
-		PlanetExplorer p = new PlanetExplorer(3, 3, "1,2");
+		PlanetExplorer p = new PlanetExplorer(3, 3, "(1,2)");
 		p.setX_vozila(0);
 		p.setY_vozila(0);
 		String kretanje = "b";
@@ -63,7 +63,7 @@ public class TestPlanetExplorer {
 	}
 	@Test(expected=PlanetExplorerException.class)
 	public void testCheckIfCarGoes2TimesForwardt() throws PlanetExplorerException {
-		PlanetExplorer p = new PlanetExplorer(3, 3, "1,2");
+		PlanetExplorer p = new PlanetExplorer(3, 3, "(1,2)");
 		p.setX_vozila(0);
 		p.setY_vozila(2);
 		
@@ -71,5 +71,6 @@ public class TestPlanetExplorer {
 		String actualPosition = p.executeCommand(kretanje);
 		
 	}
+	
 	
 }

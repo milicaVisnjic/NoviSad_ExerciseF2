@@ -90,3 +90,14 @@ EditAction 1496948071651 PlanetExplorer.java 2087 7 9 0
 UnitTestCaseAction 1496948084365 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496948084367 TestPlanetExplorer.java FAIL
 EditAction 1496948141558 PlanetExplorer.java 2180 7 9 0
+CompilationAction 1496948154170 PlanetExplorer.java
+RefactoringAction 1496948227172 PlanetExplorer.java ADD String getFacing() METHOD
+RefactoringAction 1496948227174 PlanetExplorer.java ADD void setFacing(String) METHOD
+CompilationAction 1496948228285 PlanetExplorer.java
+CompilationAction 1496948228699 PlanetExplorer.java
+CompilationAction 1496948250267 PlanetExplorer.java
+UnitTestCaseAction 1496948252984 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496948252986 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496948360597 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496948360599 TestPlanetExplorer.java FAIL
+EditAction 1496948397946 PlanetExplorer.java 2346 9 11 0

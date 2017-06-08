@@ -21,7 +21,7 @@ public class PlanetExplorer {
 	 */
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -56,11 +56,12 @@ public class PlanetExplorer {
 			else if(komande[i]=="l")
 			{
 				x_vozila--;
-				facing="W";
+				
 				if(x_vozila<0)
 				{
 					throw new PlanetExplorerException("ne moze proci levo");
 				}
+				facing="W";
 			}
 			
 			
@@ -72,7 +73,7 @@ public class PlanetExplorer {
 	
 	public String pozicija(int x_vozila, int y_vozila, String facing)
 	{
-		return "("+x_vozila+","+y_vozila+","+facing+")";
+		return "("+x_vozila + "," + y_vozila + "," + facing + ")";
 	}
 
 	public int getX_vozila() {
@@ -90,6 +91,15 @@ public class PlanetExplorer {
 	public void setY_vozila(int y_vozila) {
 		this.y_vozila = y_vozila;
 	}
+
+	public String getFacing() {
+		return facing;
+	}
+
+	public void setFacing(String facing) {
+		this.facing = facing;
+	}
+	
 	
 	
 	
