@@ -26,7 +26,7 @@ public class TestPlanetExplorer {
 		String kretanje = "f";
 		String actualPosition = p.executeCommand(kretanje);
 		
-		assertEquals("(0,1,N)", actualPosition);
+		assertEquals("(1,0,N)", actualPosition);
 	}
 	
 	
