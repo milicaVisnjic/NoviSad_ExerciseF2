@@ -36,18 +36,7 @@ public class PlanetExplorer {
 			{
 				y_vozila++;
 			}
-			else if(komande[i]=="b")
-			{
-				y_vozila--;
-			}
-			else if(komande[i]=="l")
-			{
-				x_vozila++;
-			}
-			else
-			{
-				x_vozila--;
-			}
+			
 		}
 		
 		return null;
