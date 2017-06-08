@@ -48,6 +48,11 @@ public class PlanetExplorer {
 				x_vozila++;
 				facing="E";
 			}
+			else if(komande[i]=="b")
+			{
+				y_vozila--;
+				facing="S";
+			}
 			
 			
 		}

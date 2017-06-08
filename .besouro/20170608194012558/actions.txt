@@ -66,3 +66,8 @@ RefactoringAction 1496947334286 TestPlanetExplorer.java RENAME testCheckIfCarGoe
 EditAction 1496947427733 TestPlanetExplorer.java 1104 4 16 2
 EditAction 1496947445658 TestPlanetExplorer.java 1104 4 16 2
 EditAction 1496947479052 PlanetExplorer.java 1943 7 9 0
+RefactoringAction 1496947507165 TestPlanetExplorer.java ADD void testChe FIELD
+RefactoringAction 1496947508673 TestPlanetExplorer.java RENAME testChe=>void testCheck FIELD
+RefactoringAction 1496947510686 TestPlanetExplorer.java RENAME testCheck=>void testCheckIfCar FIELD
+RefactoringAction 1496947516698 TestPlanetExplorer.java RENAME testCheckIfCar=>void testCheckIfCarGoesLeft() METHOD
+EditAction 1496947673262 PlanetExplorer.java 2013 7 9 0
