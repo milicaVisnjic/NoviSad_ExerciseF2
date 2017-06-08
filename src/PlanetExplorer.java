@@ -42,8 +42,8 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	public String pozicija(int x_vozila, int y_vozila)
+	public String pozicija(int x_vozila, int y_vozila, String facing)
 	{
-		return "("+x_vozila+","+y_vozila+")";
+		return "("+x_vozila+","+y_vozila+facing+")";
 	}
 }

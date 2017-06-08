@@ -31,3 +31,7 @@ EditAction 1496946264777 PlanetExplorer.java 1551 3 7 0
 UnitTestCaseAction 1496946282040 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946282043 TestPlanetExplorer.java FAIL
 EditAction 1496946352975 PlanetExplorer.java 1543 3 7 0
+UnitTestCaseAction 1496946365238 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946365240 TestPlanetExplorer.java FAIL
+RefactoringAction 1496946428571 PlanetExplorer.java RENAME pozicija(int, int)=>String pozicija(int, int, String) METHOD
+EditAction 1496946442006 PlanetExplorer.java 1565 3 7 0
