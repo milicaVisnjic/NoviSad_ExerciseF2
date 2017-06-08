@@ -62,4 +62,15 @@ public class TestPlanetExplorer {
 		assertEquals("(2,1,S)", actualPosition);
 	}
 	
+	@Test
+	public void testCheckIfCarGoesRight() throws PlanetExplorerException {
+		PlanetExplorer p = new PlanetExplorer(3, 3, "1,2");
+		p.setX_vozila(0);
+		p.setY_vozila(0);
+		String kretanje = "b";
+		String actualPosition = p.executeCommand(kretanje);
+		
+		assertEquals("(1,0,E)", actualPosition);
+	}
+	
 }

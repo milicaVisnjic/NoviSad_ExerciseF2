@@ -74,3 +74,7 @@ EditAction 1496947673262 PlanetExplorer.java 2013 7 9 0
 RefactoringAction 1496947687188 TestPlanetExplorer.java ADD void testCheckIfCarGoesLeft()/2 METHOD
 RefactoringAction 1496947694201 TestPlanetExplorer.java RENAME testCheckIfCarGoesLeft()/2=>void testCheckIfCarGoesBack() METHOD
 EditAction 1496947713409 TestPlanetExplorer.java 1706 6 28 4
+RefactoringAction 1496947784339 TestPlanetExplorer.java ADD void testCheckIfCarGoesBack()/2 METHOD
+RefactoringAction 1496947788351 TestPlanetExplorer.java RENAME testCheckIfCarGoesBack()/2=>void testCheckIfCarGoes() METHOD
+RefactoringAction 1496947803372 TestPlanetExplorer.java RENAME testCheckIfCarGoes()=>void testCheckIfCarGoesRight()/2 METHOD
+EditAction 1496947828907 TestPlanetExplorer.java 2009 7 34 5
