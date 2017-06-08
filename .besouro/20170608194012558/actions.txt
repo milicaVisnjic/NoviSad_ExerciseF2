@@ -78,3 +78,10 @@ RefactoringAction 1496947784339 TestPlanetExplorer.java ADD void testCheckIfCarG
 RefactoringAction 1496947788351 TestPlanetExplorer.java RENAME testCheckIfCarGoesBack()/2=>void testCheckIfCarGoes() METHOD
 RefactoringAction 1496947803372 TestPlanetExplorer.java RENAME testCheckIfCarGoes()=>void testCheckIfCarGoesRight()/2 METHOD
 EditAction 1496947828907 TestPlanetExplorer.java 2009 7 34 5
+CompilationAction 1496947836857 TestPlanetExplorer.java
+RefactoringAction 1496947850971 TestPlanetExplorer.java REMOVE testCheckIfCarGoesRight()/2 METHOD
+CompilationAction 1496947851262 TestPlanetExplorer.java
+RefactoringAction 1496947883017 TestPlanetExplorer.java ADD void testCheckIfCarGoesRight()/2 METHOD
+RefactoringAction 1496947957167 TestPlanetExplorer.java RENAME testCheckIfCarGoesRight()/2=>void testCheckIfCarGoes2Timest() METHOD
+RefactoringAction 1496947959182 TestPlanetExplorer.java RENAME testCheckIfCarGoes2Timest()=>void testCheckIfCarGoes2TimesForwardt() METHOD
+EditAction 1496948025664 TestPlanetExplorer.java 2016 7 33 4
