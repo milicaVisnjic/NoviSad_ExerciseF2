@@ -28,3 +28,6 @@ RefactoringAction 1496946098663 TestPlanetExplorer.java RENAME testCheckIfCarGoe
 RefactoringAction 1496946132761 TestPlanetExplorer.java RENAME testCheckIfCarGoesToTheNextCommand()=>void testCheckIfCarGoesRight() METHOD
 EditAction 1496946236706 TestPlanetExplorer.java 756 3 8 1
 EditAction 1496946264777 PlanetExplorer.java 1551 3 7 0
+UnitTestCaseAction 1496946282040 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946282043 TestPlanetExplorer.java FAIL
+EditAction 1496946352975 PlanetExplorer.java 1543 3 7 0
