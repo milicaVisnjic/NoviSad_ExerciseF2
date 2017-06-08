@@ -70,7 +70,6 @@ public class TestPlanetExplorer {
 		String kretanje = "r";
 		String actualPosition = p.executeCommand(kretanje);
 		
-		
 	}
 	
 }
