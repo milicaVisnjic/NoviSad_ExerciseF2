@@ -6,8 +6,10 @@
 public class PlanetExplorer {
 	int x_vozila=0;
 	int y_vozila=0;
-	String facing = "N";
+	String facing = " ";
 	
+
+
 	public PlanetExplorer(int x, int y, String obstacles){
 		
 	/*	x and y represent the size of the grid.
@@ -39,6 +41,21 @@ public class PlanetExplorer {
 			if(komande[i]=="f")
 			{
 				y_vozila++;
+				facing="N";
+			}
+			else if(komande[i]=="b")
+			{
+				y_vozila--;
+			}
+			else if(komande[i]=="l")
+			{
+				x_vozila--;
+				facing="W";
+			}
+			else if(komande[i]=="r")
+			{
+				x_vozila++;
+				facing="R";
 			}
 			
 		}
@@ -48,6 +65,25 @@ public class PlanetExplorer {
 	
 	public String pozicija(int x_vozila, int y_vozila, String facing)
 	{
-		return "("+x_vozila+","+y_vozila+facing+")";
+		return "("+x_vozila+","+y_vozila+","+facing+")";
 	}
+
+	public int getX_vozila() {
+		return x_vozila;
+	}
+
+	public void setX_vozila(int x_vozila) {
+		this.x_vozila = x_vozila;
+	}
+
+	public int getY_vozila() {
+		return y_vozila;
+	}
+
+	public void setY_vozila(int y_vozila) {
+		this.y_vozila = y_vozila;
+	}
+	
+	
+	
 }

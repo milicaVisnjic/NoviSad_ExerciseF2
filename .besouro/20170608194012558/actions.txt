@@ -46,3 +46,21 @@ RefactoringAction 1496946682044 PlanetExplorer.java ADD int getY_vozila() METHOD
 RefactoringAction 1496946682046 PlanetExplorer.java ADD void setY_vozila(int) METHOD
 RefactoringAction 1496946841185 TestPlanetExplorer.java RENAME testCheckIfCarGoesRight()=>void testCheckIfCarGoes() METHOD
 EditAction 1496946868152 TestPlanetExplorer.java 793 3 10 1
+CompilationAction 1496946876156 TestPlanetExplorer.java
+CompilationAction 1496946876158 TestPlanetExplorer.java
+CompilationAction 1496947109143 TestPlanetExplorer.java
+CompilationAction 1496947109145 TestPlanetExplorer.java
+RefactoringAction 1496947200820 PlanetExplorer.java ADD PlanetExplorer(int, int, String)/2 METHOD
+RefactoringAction 1496947206837 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)/2=>void PlanetExploreer(int, int, String) METHOD
+CompilationAction 1496947213270 PlanetExplorer.java
+CompilationAction 1496947227181 PlanetExplorer.java
+RefactoringAction 1496947287469 PlanetExplorer.java REMOVE PlanetExploreer(int, int, String) METHOD
+RefactoringAction 1496947319206 TestPlanetExplorer.java RENAME testCheckIfCarGoes()=>void testCheckIfCarGoesForward() METHOD
+RefactoringAction 1496947321719 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1496947324731 TestPlanetExplorer.java RENAME test=>void testCheck FIELD
+RefactoringAction 1496947325741 TestPlanetExplorer.java RENAME testCheck=>void testCheckIf FIELD
+RefactoringAction 1496947327253 TestPlanetExplorer.java RENAME testCheckIf=>void testCheckIfCar FIELD
+RefactoringAction 1496947328761 TestPlanetExplorer.java RENAME testCheckIfCar=>void testCheckIfCarGoes FIELD
+RefactoringAction 1496947331271 TestPlanetExplorer.java RENAME testCheckIfCarGoes=>void testCheckIfCarGoesRig FIELD
+RefactoringAction 1496947334286 TestPlanetExplorer.java RENAME testCheckIfCarGoesRig=>void testCheckIfCarGoesRight() METHOD
+EditAction 1496947427733 TestPlanetExplorer.java 1104 4 16 2
