@@ -57,6 +57,10 @@ public class PlanetExplorer {
 			{
 				x_vozila--;
 				facing="W";
+				if(x_vozila<0)
+				{
+					throw new PlanetExplorerException("ne moze proci levo");
+				}
 			}
 			
 			
