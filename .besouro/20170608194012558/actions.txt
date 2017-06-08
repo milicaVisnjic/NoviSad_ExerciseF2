@@ -1,0 +1,7 @@
+FileOpenedAction 1496943612966 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1496944212226 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1496944215763 TestPlanetExplorer.java RENAME test=>void test() METHOD
+RefactoringAction 1496945341212 PlanetExplorer.java ADD String pozicija() METHOD
+RefactoringAction 1496945349229 PlanetExplorer.java RENAME pozicija()=>String pozicija(int) METHOD
+RefactoringAction 1496945350743 PlanetExplorer.java RENAME pozicija(int)=>String pozicija(int, int) METHOD
+EditAction 1496945607939 PlanetExplorer.java 1689 3 7 0
