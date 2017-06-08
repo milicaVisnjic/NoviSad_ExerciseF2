@@ -1,7 +1,7 @@
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
-// Student ID:
+// Finish time: 20:45
+// Student ID: IT29-2015
 
 public class PlanetExplorer {
 	int x_vozila=0;
@@ -20,6 +20,7 @@ public class PlanetExplorer {
 		 
 	 */
 	}
+	
 	
 	public String executeCommand(String command) throws PlanetExplorerException{
 		
