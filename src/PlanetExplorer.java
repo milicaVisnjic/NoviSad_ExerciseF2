@@ -9,6 +9,7 @@ public class PlanetExplorer {
 	String facing = " ";
 	
 
+	
 
 	public PlanetExplorer(int x, int y, String obstacles){
 		
