@@ -43,20 +43,12 @@ public class PlanetExplorer {
 				y_vozila++;
 				facing="N";
 			}
-			else if(komande[i]=="b")
-			{
-				y_vozila--;
-			}
-			else if(komande[i]=="l")
-			{
-				x_vozila--;
-				facing="W";
-			}
 			else if(komande[i]=="r")
 			{
 				x_vozila++;
-				facing="R";
+				facing="E";
 			}
+			
 			
 		}
 		
