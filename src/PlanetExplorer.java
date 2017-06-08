@@ -4,7 +4,12 @@
 // Student ID:
 
 public class PlanetExplorer {
+	int x_vozila=0;
+	int y_vozila=0;
+	String facing = "N";
+	
 	public PlanetExplorer(int x, int y, String obstacles){
+		
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -26,8 +31,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		String rez = " ";
-		int x_vozila=0;
-		int y_vozila=0;
+		
 		String komande [] = command.split(",");
 		
 		for(int i=0;i<komande.length;i++)

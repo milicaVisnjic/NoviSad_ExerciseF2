@@ -35,3 +35,14 @@ UnitTestCaseAction 1496946365238 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946365240 TestPlanetExplorer.java FAIL
 RefactoringAction 1496946428571 PlanetExplorer.java RENAME pozicija(int, int)=>String pozicija(int, int, String) METHOD
 EditAction 1496946442006 PlanetExplorer.java 1565 3 7 0
+RefactoringAction 1496946491270 PlanetExplorer.java RENAME pozicija(int, int, String)=>String pozicija(int, int) METHOD
+RefactoringAction 1496946496294 PlanetExplorer.java RENAME pozicija(int, int)=>String pozicija(int, int, String) METHOD
+RefactoringAction 1496946661500 PlanetExplorer.java ADD int x_vozila FIELD
+RefactoringAction 1496946661501 PlanetExplorer.java ADD int y_vozila FIELD
+RefactoringAction 1496946661503 PlanetExplorer.java ADD String facing FIELD
+RefactoringAction 1496946682041 PlanetExplorer.java ADD int getX_vozila() METHOD
+RefactoringAction 1496946682043 PlanetExplorer.java ADD void setX_vozila(int) METHOD
+RefactoringAction 1496946682044 PlanetExplorer.java ADD int getY_vozila() METHOD
+RefactoringAction 1496946682046 PlanetExplorer.java ADD void setY_vozila(int) METHOD
+RefactoringAction 1496946841185 TestPlanetExplorer.java RENAME testCheckIfCarGoesRight()=>void testCheckIfCarGoes() METHOD
+EditAction 1496946868152 TestPlanetExplorer.java 793 3 10 1
