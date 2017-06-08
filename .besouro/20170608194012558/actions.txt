@@ -8,3 +8,22 @@ EditAction 1496945607939 PlanetExplorer.java 1689 3 7 0
 RefactoringAction 1496945708069 PlanetExplorerException.java ADD PlanetExplorerException() METHOD
 RefactoringAction 1496945713597 PlanetExplorerException.java RENAME PlanetExplorerException()=>PlanetExplorerException(String) METHOD
 EditAction 1496945726665 PlanetExplorerException.java 133 1 1 0
+RefactoringAction 1496946022415 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1496946026930 TestPlanetExplorer.java RENAME test()=>void testException() METHOD
+RefactoringAction 1496946029442 TestPlanetExplorer.java RENAME testException()=>void testExceptionwith() METHOD
+RefactoringAction 1496946030952 TestPlanetExplorer.java RENAME testExceptionwith()=>void testException() METHOD
+RefactoringAction 1496946034964 TestPlanetExplorer.java RENAME testException()=>void testExceptionWithObstacle() METHOD
+RefactoringAction 1496946036974 TestPlanetExplorer.java RENAME testExceptionWithObstacle()=>void testExceptionWithObstacleA() METHOD
+RefactoringAction 1496946037984 TestPlanetExplorer.java RENAME testExceptionWithObstacleA()=>void testExceptionWithObstacleAt() METHOD
+RefactoringAction 1496946044499 TestPlanetExplorer.java RENAME testExceptionWithObstacleAt()=>void testExceptionWithObstacleAt0_() METHOD
+RefactoringAction 1496946045508 TestPlanetExplorer.java RENAME testExceptionWithObstacleAt0_()=>void testExceptionWithObstacleAt0_1() METHOD
+RefactoringAction 1496946062032 TestPlanetExplorer.java RENAME test=>void test() METHOD
+RefactoringAction 1496946083087 TestPlanetExplorer.java RENAME test()=>void testCheck() METHOD
+RefactoringAction 1496946084598 TestPlanetExplorer.java RENAME testCheck()=>void testCheckIf() METHOD
+RefactoringAction 1496946087608 TestPlanetExplorer.java RENAME testCheckIf()=>void testCheckIfCar() METHOD
+RefactoringAction 1496946089120 TestPlanetExplorer.java RENAME testCheckIfCar()=>void testCheckIfCarGoes() METHOD
+RefactoringAction 1496946095137 TestPlanetExplorer.java RENAME testCheckIfCarGoes()=>void testCheckIfCarGoesToTheNext() METHOD
+RefactoringAction 1496946097151 TestPlanetExplorer.java RENAME testCheckIfCarGoesToTheNext()=>void testCheckIfCarGoesToTheNextCo() METHOD
+RefactoringAction 1496946098663 TestPlanetExplorer.java RENAME testCheckIfCarGoesToTheNextCo()=>void testCheckIfCarGoesToTheNextCommand() METHOD
+RefactoringAction 1496946132761 TestPlanetExplorer.java RENAME testCheckIfCarGoesToTheNextCommand()=>void testCheckIfCarGoesRight() METHOD
+EditAction 1496946236706 TestPlanetExplorer.java 756 3 8 1
